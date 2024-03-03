@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(#383838 10%, transparent 10%),
+    radial-gradient(#383838 10%, transparent 10%);
+  background-color: #ece9dc;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+}
+
+/*
+  .circle {
+    background: #8b98fd;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    overflow:hidden;
+    padding:25px;
+    position:relative;
+  
+}
+
+.FN{
+  transform:translate(-50%,-50%);
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 25px;
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+
+*/
+/*
+.header {
+  background-color: #7884A1;
+  padding: 20%;
+  
+}
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  gap: 100px;
+  
+}
+
+.header h1 {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  
+
+}
+
+.header h2 {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+ 
+}
+
+.container_about {
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+
+}
+.container_about p{
+  max-width: 50ch;
+
+}
+
+.container_projects {
+margin-bottom: 40px;
+}
+
+.container_skills_txt {
+  margin-bottom: 40px;
+}
+
+div {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+section {
+  border-radius: 10px;
+  background-color: #ece9dc;
+  outline-style: solid;
+  outline-color: #4b66b9;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  gap: 40px;
+ margin: 0 10%;
+}
+
+h2 {
+  color: #ffffff;
+  -webkit-text-stroke: 1px black;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+h3 {
+  font-family: monospace;
+
+}
+
+p {
+  color: #212121;
+  font-family: monospace;
+  line-height: 20px;
+max-width: 65ch;
+
+}
+
+.portrait_img {
+  width: 35%;
+  order: -1;
+  
+
+
+}
+
+.opgave {
+  margin-bottom: 60px;
+}
+
+.opgave_img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.opgave p {
+  max-width: 40ch;
+}
+
+
+/*
+.aboutme {
+  border-radius: 10px;
+  margin: 10%;
+  background-color: #ece9dc;
+  outline-style: solid;
+  outline-color: #4b66b9;
+}
+
+.aboutme h2 {
+  color: #ffffff;
+  -webkit-text-stroke: 1px black;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 3%;
+  text-align: center;
+}
+
+.aboutme p {
+  color: #212121;
+  font-family: monospace;
+  margin: 5%;
+}
+
+img {
+  width: 300px;
+  justify-content: center;
+}
+
+.skills {
+  border-radius: 10px;
+  margin: 10%;
+  background-color: #ece9dc;
+  outline-style: solid;
+  outline-color: #4b66b9;
+}
+
+.skills h2 {
+  color: #ffffff;
+  -webkit-text-stroke: 1px black;
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+}
+.skills p {
+  justify-content: center;
+  margin: 5%;
+  font-family: monospace;
+}
+
+.projects {
+  border-radius: 10px;
+  margin: 10%;
+  background-color: #ece9dc;
+  font-family: monospace;
+  outline-style: solid;
+  outline-color: #4b66b9;
+}
+
+.projects h2 {
+  color: #ffffff;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.projects h3 {
+  font-family: monospace;
+  margin: 5%;
+}
+
+.projects p {
+  margin: 5%;
+}
+*/
+a {
+  display: inline-block;
+  font-family: monospace;
+  padding: 8px 40px;
+  background-color: #ece9dc;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 15px;
+  outline-style: solid;
+  outline-color: #4b66b9;
+  max-width: fit-content;
+}
+
+footer {
+background-color: #212121;
+padding: 30px;
+text-align: center;
+
+}
+
+footer h2 {
+  color: #ffffff;
+  padding: 10px;
+}
+
+
+footer h3 {
+  color: #ffffff;
+}
+
+
+/*større skærme*/
+
+@media (min-width: 900px) {
+  /*
+  .grid_2-1 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 2fr 1fr;
+    grid-column: auto;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    */
+
+
+  .header h1 {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 90px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .header h2 {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+  }
+
+  section {
+    border-radius: 10px;
+   
+    background-color: #ece9dc;
+    outline-style: solid;
+  }
+
+ h2 {
+    font-size: 30px;
+
+  }
+
+  .portrait_img {
+    order: 1;
+  }
+
+  h3 {
+    font-family: monospace;
+  }
+
+  p {
+    font-size: 16px;
+   line-height: 25px;
+    font-family: monospace;
+  }
+
+  .opgave_img {
+    
+    border-radius: 10px;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: auto;
+  }
+
+
+}
