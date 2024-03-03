@@ -135,7 +135,7 @@ max-width: 65ch;
 }
 
 .portrait_img {
-  width: 35%;
+  max-width: 50%;
   order: -1;
   
 
@@ -308,6 +308,7 @@ footer h3 {
 
   .portrait_img {
     order: 1;
+    max-width: 30%;
   }
 
   h3 {
@@ -327,7 +328,7 @@ footer h3 {
 
   .grid_1-1-1 {
     display: grid;
-    gap: 2em;
+    gap: 3em;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: auto;
   }
