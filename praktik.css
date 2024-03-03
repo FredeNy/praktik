@@ -84,6 +84,7 @@ justify-content: space-between;
 }
 .container_about p{
   max-width: 50ch;
+  margin-bottom: 20px;
 
 }
 
