@@ -140,11 +140,11 @@ p {
 }
 
 .opgave_img {
-  /*max-width: 80%;*/
   width: 80%;
   height: 80%;
   border-radius: 1rem;
 }
+
 
 .opgave p {
   max-width: 40ch;
@@ -238,9 +238,6 @@ footer p {
     font-family: monospace;
   }
 
-  .opgave_img {
-    border-radius: 10px;
-  }
 
   footer {
     padding: 30px;
